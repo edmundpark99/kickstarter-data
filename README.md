@@ -13,5 +13,5 @@
 
 Below is the filtering process behind the pivot table, as well as the resulting pivot table itself:
 
-https://github.com/edmundpark99/kickstarter-data-analysis/blob/main/Pivot%20Table%20Filters.png
-https://github.com/edmundpark99/kickstarter-data-analysis/blob/main/Kickstarter%201%20Pivot%20Table.png
+![Pivot Table Filters](https://user-images.githubusercontent.com/6594718/156930680-15f81e07-d07b-4105-92a1-de4b545f88f4.png)
+![Kickstarter 1 Pivot Table](https://user-images.githubusercontent.com/6594718/156930691-8a035932-1022-4c55-885e-c737f7de1302.png)
