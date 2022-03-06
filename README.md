@@ -15,3 +15,10 @@ Below is the filtering process behind the pivot table, as well as the resulting 
 
 ![Pivot Table Filters](https://user-images.githubusercontent.com/6594718/156930680-15f81e07-d07b-4105-92a1-de4b545f88f4.png)
 ![Kickstarter 1 Pivot Table](https://user-images.githubusercontent.com/6594718/156930691-8a035932-1022-4c55-885e-c737f7de1302.png)
+
+  After the outcomes of the theater projects based on their launch date was assessed, the next assessment performed was to analyze the outcomes of plays based on their goal in terms of fundraiding amount. A new sheet was created to the project's goal amount, the number of successful projects in that range, the number of failed projects in that range, and the number that were canceled. From there, the percentage of successful, failed, and canceled projects was calculated relative to the total number of plays with the designated fundraising goal range. The number of each per category was calculated using a COUNTIFS function, with a sample equation being used below:
+
+```
+functiontest() {
+  console.log("=COUNTIFS(Kickstarter!F:F,"successful",Kickstarter!D:D,"<1000",Kickstarter!R:R,"plays")
+}
