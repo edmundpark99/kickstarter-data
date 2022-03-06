@@ -7,3 +7,6 @@
   
 **Analysis of the Project**
 
+*Process of the Analysis*
+
+  First, in order to access the outcomes of theater fundraising projects in relation to their release date. This was done by using the data that was gathered in an Excel spreadsheet. We first singled out what year each project was released in, by using the =YEAR() function in Excel, using a base date to convert from. From there, a pivot table was created using the data, and the table was filtered based on the parent category of the project as well as the year of the project. The pivot table was then assessed with the count of outcomes as the legend, and the date created as the category with which to divide the outcomes further. The results were subsequently made into a pivot table based on the month they were released, and how many theater projects in said month were successful in their fundraising goals, how many failed to reach said goals, and how many projects were canceled. 
