@@ -22,3 +22,13 @@ Below is the filtering process behind the pivot table, as well as the resulting 
 functiontest() {
   console.log("=COUNTIFS(Kickstarter!F:F,"successful",Kickstarter!D:D,"<1000",Kickstarter!R:R,"plays")
 }
+
+This function was utilized in Excel, and the aforementioned criteria was altered based on the desired range as well as whether the outcome was successful, failed, or canceled. The resulting table is shown below:
+
+![Outcomes Table](https://user-images.githubusercontent.com/6594718/156932441-1f4c8388-1a8a-42e5-8d13-2b43f14f471f.png)
+
+Afterwards, both assessments were then charted unto a line graph, with the following shown:
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/6594718/156932642-c5eb9fd4-512c-4fca-b150-2595d1d88613.png)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/6594718/156932645-804872e0-026f-49fe-a476-7eb9139f6746.png)
+
+*Potential Challenges of the Analysis*
